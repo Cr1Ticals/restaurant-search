@@ -22,7 +22,7 @@ export const Search = styled.section`
 `;
 
 export const Logo = styled.img`
-    margin-bottom: 16px;
+    margin: 20px;
 `;
 
 export const Map = styled.div`
