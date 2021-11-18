@@ -41,6 +41,26 @@ export const CarouselTitle = styled.h1`
 
 export const Carousel = styled(Slider)`
     .slick-slide{
-        margin-right: 16px;
+        margin-right: 25px;
     }
+`;
+
+export const ModalTittle = styled.p`
+    margin-bottom: 10px;
+    letter-spacing: 0.11px;
+    font-family: ${(props) => props.theme.fonts.regular};
+    color: ${(props) => props.theme.colors.text};
+    text-transform: none;
+    line-height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+`;
+
+export const ModalInfos = styled.p`
+    margin-bottom: 5px;
+    letter-spacing: 0.11px;
+    font-family: ${(props) => props.theme.fonts.regular};
+    color: ${(props) => props.theme.colors.text};
+    text-transform: none;
+    font-size: 16px;
 `;
